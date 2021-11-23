@@ -1,0 +1,1 @@
+SELECT * FROM IT202Transcript LEFT JOIN IT202Student ON IT202Transcript.StudentID = IT202Student.StudentID UNION SELECT * FROM IT202Transcript RIGHT JOIN IT202Student ON IT202Transcript.StudentID = IT202Student.StudentID
