@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <script src="prooject2.js"></script>
+    <head>
+        <title>
+            Ryan Vennemeyer
+        </title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="project2.css" />
+
+    </head>
+<body>
+    
+
+  <div class="input">
+    <center>
+      <p class = "title">The Art Of Hair (TAOH)</p>
+    </center>
+    <table class="contenttable">
+      <tr>
+        <th><span class = "request">Stylist's First Name:</span></th>
+        <th><input type="text" id="First" size="75" ></th>
+        <th> <span class="req">Required</span></th>
+      </tr>
+      <tr>
+        <th><span class = "request">Stylist's Last Name:</span>  </th>
+        <th><input type="text" id="Last" size="75" ></th>
+        <th> <span class="req">Required</span></th>
+      </tr>
+      <tr>
+        <th><span class = "request">Stylist's ID: </span>    </th>
+        <th><input type="text" id="ID"size="75" ></th>
+        <th> <span class="req">Required</span></th>
+      </tr>
+      <tr>
+        <th><span class = "request">Stylist's Password: </span>  </th>
+        <th><input type="password" id="Passowrd"size="75" ></th>
+        <th> <span class="req">Required</span></th>
+      </tr>
+      <tr>
+        <th><span class = "request">Stylist's Phone#:  </span>   </th>
+        <th><input type="text" id="Phone"size="75" ></th>
+        <th> <span class="req">Required</span></th>
+      </tr>
+      <tr>
+        <th><span class = "request">Stylist's Email:  </span>     </th>
+        <th><input type="text" id="Emails"size="75"></th>
+        <th> <span id = "ereq" class="ereq" onload="hide()" >Required</span></th>
+      </tr>
+    </table>
+    
+    <table>
+      <tr>
+        <th class="left">
+          <span class = "request"><input id="check" name="check" type="checkbox" onclick="checkreq()"> Check the box to request an Email Confirmation</span>
+        </th>
+        
+
+      </tr>
+      <tr>
+        <th>
+          <span class = "Transaction">Choose a Transaction</span>
+      <select name="choose" id="choose" onchange="choice(this)">
+        <option value="please choose">Please Choose</option>
+        <option value="Stylist’s Records">Stylist’s Records</option>
+        <option value="Book a Client's Appointment">Book a Client's Appointment</option>
+        <option value="Place a Client's Order">Place a Client's Order</option>
+        <option value="Update a Client's Order">Update a Client's Order</option>
+        <option value="Cancel a Client's Appointment">Cancel a Client's Appointment</option>
+        <option value="Cancel a Client's Order">Cancel a Client's Order</option>
+        <option value="Client's Account">Client's Account</option>
+      </select>
+        </th>
+        <th class="middle">
+
+        </th>
+        <th class="right"></th>
+
+      </tr>
+      <tr>
+        <th class="left">
+
+        </th>
+        <th class="middle"></th>
+        <th class="rigth">
+          <div class="butright">
+          <input type="submit" value="Submit" class="button" onclick= "submit()">
+          <input type="reset" class="button" onclick = "reload()">
+        </div>
+      </th>
+      </tr>
+    </table>
+      
+      <br>
+      
+      <br>
+      
+      
+
+  
+    
+  </div>
+</body>
+</html>

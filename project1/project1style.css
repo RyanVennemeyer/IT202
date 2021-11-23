@@ -1,0 +1,120 @@
+
+body {
+    
+    background-image: url("https://drive.google.com/uc?export=view&id=1FI1QjxcdBO5B3tNj6n8Z4NL8REOcou2m");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    transition: 0.5s;
+}
+.column {
+    
+    width: 30%;
+    padding: 5px;
+  }
+  
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+.img{
+    
+    width: 130%;
+  
+}
+.map {
+    
+    float:left;
+}
+.tourpic {
+    float: right;
+    
+}
+/*
+.Title {
+
+    font-size: 2000%;
+    font-style: oblique;
+    
+}
+*/
+.interest{
+    font-size: 200%;
+}
+.content {
+    text-align:left;
+    vertical-align: top;
+    width:50%; 
+    background-color:white;
+    
+}
+.pictitle {
+    text-align: center;  
+
+}
+.undertitle {
+    text-align: center;
+    font-size: 250%;
+
+}
+table.contenttable {
+    margin-left: auto; 
+    margin-right: auto;
+    width:80%;
+    border-spacing: 10px 50px ;
+}
+table.tour {
+    margin-left: auto; 
+    margin-right: auto;
+    width:60%
+}
+.eventcolor {
+    background-color: aqua;
+
+}
+.red {
+    color:red;
+}
+.brown{
+    color:brown;
+}
+.blue {
+    color:blue;
+}
+.green {
+    color:green;
+}
+.animal {
+    width:50%; 
+    background-color:rgb(209, 118, 118);
+    font-size: 200%;
+}
+.Aquatic {
+    width:50%; 
+    background-color:lightblue;;
+    font-size: 200%;
+}
+.Floral{
+    width:50%; 
+    background-color:rgb(123, 243, 123);
+    font-size: 200%;
+}
+.Interesting {
+    width:50%; 
+    background-color:Green;
+    font-size: 200%;
+}
+.interest {
+    width:50%;
+    font-size: 200%;
+}
+.bottomcon{
+    font-size: 150%;
+    
+}
+/* https://drive.google.com/uc?export=view&id=1fit7Ubtkyq-bnjpYKB5K179H6tWwIBhg 
+https://drive.google.com/uc?export=view&id=1Zwu3fGdrixYuuYmRbDq0LWlDzYbPh7JM
+*/
